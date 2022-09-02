@@ -28,7 +28,9 @@
     "vite-plugin-pwa": "^0.12.3"
   },
   "dependencies": {
-    "@ionic/core": "^6.1.8"
+    "@ionic/core": "^6.1.8",
+    "longpress-svelte": "^1.0.0",
+    "svelte-lazy-image": "^0.5.1"
   },
   "routify": {
     "pages": "./src/routes"
