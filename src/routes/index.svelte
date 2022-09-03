@@ -34,6 +34,7 @@
     for (const modulePath in imageModules) {
       imgArray.push(modulePath);
     }
+    console.log(window.location.pathname)
     console.log(imgArray.length);
     loaded = true;
   }
