@@ -68,7 +68,7 @@
         <!-- content here -->
         <ion-row>
           {#each imgArray as image}
-            <!-- content here asd-->
+            <!-- change the src/routes/ to assets/ asd-->
 
             <ion-col
               use:longpress
@@ -136,10 +136,7 @@
     font-size: 21px;
     margin: 10px;
   }
-  .images {
-    min-width: 200px;
-    max-width: 200px;
-  }
+
   .preview_box div {
     position: fixed;
     top: 7vh;
