@@ -7,7 +7,7 @@
   import SubLogo from "./sublogo.png";
   import { loadingController } from "@ionic/core";
   import Preview from "./preview.svelte";
-  const imageModules = import.meta.glob("./images/*.jpg");
+  const imageModules = import.meta.glob("./assets/*.jpg");
   let imgArray = [];
   let loaded = false;
   let show_preview = false;
